@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilovi/onama.css">
+    <script src="https://kit.fontawesome.com/b62db5e7e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Restoran Cezar</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="pocetna.html">
+                <h1>Cezar</h1>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="pocetna.html">POČETNA</a></li>
+                    <li><a href="onama.html">O NAMA</a></li>
+                    <li><a href="galerija.html">GALERIJA</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1 class="animacija"><i>O nama</i></h1>
+            <p class="animacija"><i>Dobro došli! Dozvolite da Vas informišemo o istoriji,ponudama, hrani i piću, koje naš restoran nudi!
+                </i></p>
+        </div>
+    </section>
+
+
+    
+
+    
+    <section class="onama">
+        <div class="glavno">
+            <div class="onama-tekst">
+                <h1>O nama</h1>
+                <p>Restoran nacionalne kuhinje Cezar je otvorio svoja vrata 1999. godine u centru Starog Beograda i za kratko vreme se pokazao u dobrom svetlu izuzetnom uslogom, širokim asortimanom i kvalitetom hrane i pića.
+                   Ovde se svakodnevno peče domaći hleb, pripremaju domaći kolači i specijaliteti o kojima se priča i uživa u priajtnom ambijentu restorana, koji se odavno prepoznao od strane poslovnih i porodičnih ljudi. Činjenica da nijednom nismo imali žalbe na higijenu, govori dosta o tome koliko se trudimo oko svakog detalja.
+                   Vodimo računa o vašim željama, potrebama i ukusu. Kod nas su zapošljeni stručno osoblje, koje će vas uslužiti na visokom nivou. 
+                </p>
+            </div>
+            <img src="slike/slika20.jpg" alt="" >
+        </div>
+    </section>
+     
+    <section class="onama">
+        <div class="glavno2">
+            <img src="slike/slika21.jpg" alt="" >
+            <div class="onama-tekst order">
+                <h1>Proslave</h1>
+                <p class="mb-none">
+                    Objekat se definiše kao ambijent visoke kategorije, velikog kapaciteta sa izrazito nacionalnim karakterom, izuzetnim 
+                    komforom, bogatim ponudama vina, domaćih rakija, pečenja sa ražnja i izborom nacionalnih jela. Restoran Cezar organizuje
+                     sve vrste proslava. Uz fenomenalnnu hranu, piće i prelep ambijent, nudimo vam i uživanje uz živu muziku. Potrudićemo se 
+                     da vas i vama drage osobe, ugostimo na najbolji mogući način. Nudimo raznovrsnost u pogledu, kako gurmanstva, tako i prilagođavanja vašim željama, kako biste
+                     vaš događaj obeležili kako treba. Objekat raspolaže sa 200 mesta za sedenje. U bašti restorana je moguće smestiti 
+                     300 ljudi. Otvoreni smo za svaku vrstu dogovora, nemojte oklevati već nas kontaktirajte na broj:
+                     <p><a href="tel:+1234567890">123-456-7890</a></p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="button">
+        <a href="kontakt.html" class="dugme">Kontakt</a>
+    </div>
+
+    
+
+    <section class="footer">
+        <div class="icons">
+         
+          <a href="https://www.facebook.com/">
+            <i class="fab fa-facebook"></i>
+          </a>
+   
+         
+          <a href="https://www.instagram.com/" >
+            <i class="fab fa-instagram"></i>
+          </a>
+   
+         
+          <a href="https://twitter.com/" >
+            <i class="fab fa-twitter"></i>
+          </a>
+   
+         
+          <a href="https://www.linkedin.com/in/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilovi/galerija.css">
+    <script src="https://kit.fontawesome.com/b62db5e7e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+    
+    <title>Restoran Cezar</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="pocetna.html">
+                <h1>Cezar</h1>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="pocetna.html">POČETNA</a></li>
+                    <li><a href="onama.html">O NAMA</a></li>
+                    <li><a href="galerija.html">GALERIJA</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <!-- <div class="link1">
+				<h2>Dobro nam došli!</h2>
+			</div> -->
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1 class="animacija"><i>Galerija</i></h1>
+            <p class="animacija"><i>Ovde možete videti samo mali deo hrane, pica i atmosfere restorana Cezar!
+                </i></p>
+        </div>
+    </section>
+
+
+    <section class="galerija">
+        <!-- <div class="cela" id="celaslika">
+            <img src="slike/slika1.jpg" id="slika">
+            <span onclick="closeSlika()">X</span>
+        </div> -->
+        <!-- <div class="galerija-slika"> -->
+            
+        <!-- </div> -->
+        
+    <!-- <script>
+        var celaslika = document.getElementById("celaslika");
+        var slika = document.getElementById("slika");
+
+        function openSlika(photo){
+          celaslika.style.display = "flex";
+          slika.src = photo;
+        }
+
+        function closeSlika(){
+            celaslika.style.display= "none";
+
+        }
+
+    </script>     -->
+    </section>
+
+    <div class="holder">
+        <div class="pics"><img src="slike/slika1.jpg" ></div>
+        <div class="pics"><img src="slike/slika3.jpg" ></div>
+        <div class="pics"><img src="slike/slika4.jpg" ></div>
+        <div class="pics"><img src="slike/slika5.jpg" ></div>
+        <div class="pics"><img src="slike/slika6.jpg" ></div>
+        <div class="pics"><img src="slike/slika7.jpg" ></div> 
+        <div class="pics"><img src="slike/slika8.jpg" ></div>    
+        <div class="pics"><img src="slike/slika10.jpg" ></div>
+        <div class="pics"><img src="slike/slika11.jpg" ></div>
+        <div class="pics"><img src="slike/slika12.jpg" ></div>
+        <div class="pics none"><img src="slike/slika13.jpg"></div>
+        <div class="pics"><img src="slike/slika14.jpg" ></div>
+        <div class="pics"><img src="slike/slika15.jpg" ></div>
+        <div class="pics"><img src="slike/slika16.jpg" ></div>
+        <div class="pics"><img src="slike/slika17.jpg" ></div>
+    </div>
+
+       
+    <section class="footer">
+        <div class="icons">
+         
+          <a href="https://www.facebook.com/">
+            <i class="fab fa-facebook"></i>
+          </a>
+   
+         
+          <a href="https://www.instagram.com/" >
+            <i class="fab fa-instagram"></i>
+          </a>
+   
+         
+          <a href="https://twitter.com/" >
+            <i class="fab fa-twitter"></i>
+          </a>
+   
+         
+          <a href="https://www.linkedin.com/in/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
